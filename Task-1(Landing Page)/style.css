@@ -1,0 +1,167 @@
+@import 'utilites.css';
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik+Mono+One&display=swap');
+
+:root{
+    --primary: #3dcfd3;
+    --dark: #161616;
+
+    --pure: #ffffff;
+    --ternary: #898989;
+    --light: #f2f2f2;
+    --secondary: #070606;  
+}
+
+*{
+    margin: 0 2px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: #f7f4f4;
+}
+
+
+.navbar{
+    display: flex;
+    height: 50px;
+}
+
+.navbar li{
+    margin: 10px;
+    list-style:none;
+
+}
+
+.container{
+    font-family: 'Trebuchet MS', sans-serif;
+    max-width: 95vw;
+    margin: 0 10px;
+}
+
+.name{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--ternary);
+
+}
+
+.top-left{
+    width: 50%;
+    padding: 30px 0;
+} 
+
+.top-right{
+    width: 50%;
+} 
+
+.section-1{
+    max-height: 700px; 
+    padding: 2px 90px;
+}
+
+.section-1 h1{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+
+.section-1 p{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.bodyimg{
+    width: 250px;   
+}
+
+.bodyimg2{
+    width: 500px;
+       
+}
+
+.section-2{
+    padding: 73px;
+}
+.section-2 h1{
+    font-size: 2.3rem;
+    text-align: center;
+    padding: 12px;
+}
+
+.section-2 p{
+    padding: 0 10vw;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.box{
+    width: 23vw;
+    height: 23vh;
+
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px 0px;
+    text-align: center;
+    /* font-size: 20px; */
+    /* font-weight: 900; */
+}
+
+.box h2{
+    font-size: 1.5rem;
+    
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box li{
+    padding: 10px;
+}
+
+.boxes{
+    margin: 30px ;
+}
+
+.plan_table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3{
+    padding: 73px;
+}
+
+.section-3 h1{
+    font-size: 2.3rem;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.section-3 table{
+    width: 100%;
+    margin: 12px 0;
+    border-collapse: collapse;
+}
+
+.section-3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 12px 0;
+}
+
+.section-3 table td{
+    border-bottom: 2px solid black;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+}
+
+.deal{
+    padding-top: 18px;
+    margin-bottom: 12px;
+}
